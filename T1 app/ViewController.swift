@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     tapCount = tapCount + 1
         print("tapper!")
         
-    if tapCount>=5{
+    if tapCount>=15{
     theLabel.text = "Holy Crap!"
     }
     else{
